@@ -17,6 +17,8 @@ def Game():
     list1=["STONE","PAPER","SEASOR"]
     speak(list1)
     k=int(input("YOU:"))
+    if (k>=3):
+        exit()
     user=list1[k]
     print("USER:",user)
 

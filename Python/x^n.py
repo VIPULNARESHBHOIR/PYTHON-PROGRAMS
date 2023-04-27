@@ -1,5 +1,5 @@
 
-result=lambda a,b : a**b
+result=lambda a,b : a**b+b**a
 
 a=int(input("x:"))
 b=int(input("n:"))

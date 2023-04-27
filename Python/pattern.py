@@ -43,11 +43,23 @@ for i in range (1,row+1):
     for j in range (1,i+1):
             print("*",end=" ")
     print()
+for i in range (1,row):
+    for j in range(0,i):
+       print(end=" ")
+    for j in range (0,row-i):
+            print("*",end=" ")
+    print()
 
 '''output:n:5
-       * 
-      * * 
-     * * * 
-    * * * * 
-   * * * * * '''
+    * 
+   * *
+  * * *
+ * * * *
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+'''
+
 

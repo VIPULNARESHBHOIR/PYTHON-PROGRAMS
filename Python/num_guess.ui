@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Num_GuessGame</class>
+ <widget class="QMainWindow" name="Num_GuessGame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>789</width>
+    <height>852</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.0113636, x2:1, y2:1, stop:0 rgba(0, 0, 0, 20), stop:0.308458 rgba(0, 0, 0, 119), stop:0.890547 rgba(0, 0, 0, 228));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="playbutton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>610</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>16</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.0113636, x2:1, y2:1, stop:0 rgba(186, 0, 255, 255), stop:0.308458 rgba(162, 0, 235, 255), stop:0.890547 rgba(83, 0, 78, 255));
+border-radius:50%;
+border:1px solid white;
+}
+
+QPushButton:hover{
+color:  qlineargradient(spread:pad, x1:0, y1:0.0113636, x2:1, y2:1, stop:0 rgba(186, 0, 255, 255), stop:0.308458 rgba(162, 0, 235, 255), stop:0.890547 rgba(83, 0, 78, 255));
+background-color: rgb(0, 0, 0);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>PLAY</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="quitbutton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>610</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>16</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+background-color: qconicalgradient(cx:0.022, cy:1, angle:0, stop:0 rgba(150, 0, 0, 229), stop:1 rgba(255, 255, 255, 255));
+border-radius:50%;
+border:1px solid aqua;
+}
+
+QPushButton:hover{
+color: rgb(255, 0, 0);
+	background-color: rgb(0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>QUIT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>100</y>
+      <width>481</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 255, 255);
+font: 16pt &quot;Palatino Linotype&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Guess The NUMBER  Between 50 to 80</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="check">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>340</y>
+      <width>181</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>16</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0,0,0);
+background-color:rgb(0, 255, 0);
+border-radius:20px;
+border:1px solid #c4ff9d;
+}
+
+QPushButton:hover{
+background-color: rgb(7, 94, 2);
+color:white;
+}</string>
+    </property>
+    <property name="text">
+     <string>CHECK</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="comment">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>160</y>
+      <width>361</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;
+color: aqua;
+font: 36pt &quot;Snap ITC&quot;;
+margin-left:0px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>170</y>
+      <width>141</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.0113636, x2:1, y2:1, stop:0 rgba(0, 121, 255, 255), stop:0.308458 rgba(0, 85, 235, 255), stop:0.890547 rgba(15, 0, 83, 255));
+border-radius:10px;
+border:1px solid aqua;
+font: 87 48pt &quot;Arial Black&quot;;
+color: rgb(255, 2, 103);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
